@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="126dp"
+            android:src="@drawable/img_1" />
+        <LinearLayout
+            android:background="#DFF6FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/idDon"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="MD18305"/>
+            <TextView
+                android:id="@+id/tendon"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Đơn: Giặt quần áo thun"/>
+            <TextView
+                android:id="@+id/khoiluong"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="KL: 10kg - 15kg"/>
+            <TextView
+                android:id="@+id/giatien"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Giá: 65.000"/>
+            <TextView
+                android:id="@+id/ngaygiao"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Ngày giao:14/03/2023"/>
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnchitiet"
+            android:layout_width="wrap_content"
+            android:layout_height="126dp"
+            android:background="@drawable/cus_btn"
+            android:src="@drawable/next_btn" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
