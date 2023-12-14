@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">final</string>
+    <string name="app_name">DuAn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="xac_nhan_fragment">Xác nhận fragment</string>
+    <string name="thuc_hien_fragment">Thực hiên fragment</string>
+    <string name="don_huy_fragment">Đơn huỷ fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
