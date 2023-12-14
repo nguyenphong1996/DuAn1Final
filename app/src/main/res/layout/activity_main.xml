@@ -39,8 +39,9 @@
         tools:layout_editor_absoluteY="250dp">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -51,17 +52,17 @@
                 android:padding="8dp">
 
                 <ImageView
-                    android:id="@+id/imgGiatUi"
+                    android:id="@+id/imgTaoDon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/giatui" />
 
                 <TextView
                     android:textAlignment="center"
-                    android:id="@+id/tvGiatUi"
+                    android:id="@+id/txtTaoDon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tạo đơn giặt ùi" />
+                    android:text="Tạo đơn" />
             </LinearLayout>
 
             <LinearLayout
@@ -74,61 +75,17 @@
 
                 <ImageView
 
-                    android:id="@+id/imgDatLich"
+                    android:id="@+id/imgDonHang"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/datlich" />
 
                 <TextView
                     android:textAlignment="center"
-                    android:id="@+id/tvDatLich"
+                    android:id="@+id/txtDonHang"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Đặt lịch giao nhận" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
-
-                <ImageView
-                    android:id="@+id/imgTraCuu"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/tracuu" />
-
-                <TextView
-                    android:textAlignment="center"
-                    android:id="@+id/tvTraCuu"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Tra cứu dịch vụ" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="8dp">
-
-                <ImageView
-                    android:id="@+id/imgGiaoHang"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/giaohang" />
-
-                <TextView
-                    android:textAlignment="center"
-                    android:id="@+id/tvGiaoHang"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Giao Hàng" />
+                    android:text="Đơn hàng" />
             </LinearLayout>
         </LinearLayout>
 
