@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FPoly Laundry"
+        android:textColor="#69CEF9"
+        android:textStyle="bold"
+        android:textSize="32sp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtEmailKhoiPhuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:hint="Email khôi phục"
+            android:drawableLeft="@drawable/baseline_mark_email_read_24"
+            android:inputType="text"
+            android:textStyle=""
+            android:textSize="20dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnGui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/cus_btn_forgetpass_send"
+        android:text="Gửi"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btnQuayLai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/cus_btn_forgetpass_back"
+        android:text="Quay lại"
+        app:cornerRadius="10dp" />
+</LinearLayout>
